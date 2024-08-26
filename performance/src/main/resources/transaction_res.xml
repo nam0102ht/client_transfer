@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<genericSingleRestResponse xmlns:ns2="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.07">
+    <GrpHdr>
+        <ns2:MsgId>42E1037861BE4EF9BDF0CE57B4ECB083</ns2:MsgId>
+        <ns2:CreDtTm>2018-01-01T01:00:00.000+07:00</ns2:CreDtTm>
+        <ns2:NbOfTxs>1</ns2:NbOfTxs>
+        <ns2:SttlmInf>
+            <ns2:SttlmMtd>INDA</ns2:SttlmMtd>
+        </ns2:SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInfSts>
+        <ns2:EndToEndId>42E1037861BE4EF9BDF0CE57B4ECB083-1</ns2:EndToEndId>
+        <ns2:Success>true</ns2:Success>
+    </CdtTrfTxInfSts>
+</genericSingleRestResponse>
