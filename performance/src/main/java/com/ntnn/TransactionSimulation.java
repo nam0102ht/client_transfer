@@ -130,7 +130,7 @@ public class TransactionSimulation extends Simulation {
 
   {
     setUp(
-        transaction.injectOpen(rampUsers(200).during(100))
+        transaction.injectOpen(rampUsers(2400).during(120))
     ).protocols(httpProtocol);
   }
 }
