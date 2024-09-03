@@ -59,6 +59,11 @@ test {
     useJUnitPlatform()
 }
 
+dockerCompose {
+    useComposeFiles = ['src/docker/docker-compose.yml']
+}
+
+
 tasks.register('blackboxTest', Test) {
     dependsOn['testClasses']
     useJUnit()
